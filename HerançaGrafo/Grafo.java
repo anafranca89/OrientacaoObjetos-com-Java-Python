@@ -3,6 +3,7 @@ public abstract class Grafo{
     protected Map<String, Integer> vertmap;
 
     //construtor 
+    ///////////////////////
     public Grafo(){
         //mantem relação entre a string vertice e uma chave ordenada.
         this.vertmap = new TreeMap<>();
